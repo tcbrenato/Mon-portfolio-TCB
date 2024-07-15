@@ -102,6 +102,20 @@ li {
   padding: 1rem;
 }
 
+.download-link {
+  display: inline-block; /* Pour un style de bouton */
+  padding: 10px 15px; /* Espace autour du texte */
+  background-color: #007BFF; /* Couleur de fond */
+  color: white; /* Couleur du texte */
+  text-decoration: none; /* Enlève le soulignement */
+  border-radius: 5px; /* Coins arrondis */
+  transition: background-color 0.3s; /* Animation de couleur au survol */
+}
+
+.download-link:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+
 @media screen and (min-width:750px) {
   .container {
     max-width: 1200px;
